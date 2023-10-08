@@ -1,0 +1,168 @@
+
+body {
+    margin: 0px;
+}
+nav {
+    background-color: #51ff00; /* Background color of the navigation bar */
+    color: #ffffff; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    
+    padding: 25px;
+}
+
+.nav-title {
+    display: flex;
+    gap: 6px;
+}
+.beetwen {
+    justify-content: space-between; 
+}
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px 20px; /* Add some padding to the container */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row-reverse;
+    justify-content: space-between; /* Space elements evenly in the container */
+    align-items: center; /* Center items vertically */
+}
+.container>p {
+    display: block;
+    height: fit-content;
+}
+@media screen and (max-width: 560px) {
+    .container {
+        flex-direction: column;
+    }
+}
+/* Style the logo */
+img {
+    height: 40px; /* Adjust the height as needed */
+}
+
+/* Style the navigation links */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Use flexbox for layout */
+}
+
+li {
+    margin-right: 20px; /* Add some space between list items */
+}
+
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+a:hover {
+    color: #00ff62; /* Change the text color on hover */
+}
+
+h1{
+    color: #00ff62;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto; /* Add margin to center the content and separate it from the navigation bar */
+    display: flex;
+    flex-wrap: wrap; /* Allow content items to wrap to the next line on small screens */
+}
+
+
+.profile-image img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto;
+    display: block;
+}
+
+
+
+/* Style the profile and contact sections */
+.profile, .contact {
+    flex: 1; /* Distribute available space equally between the two sections */
+    padding: 20px;
+    background-color: #c9e75e; /* Background color for sections */
+    margin: 10px; /* Add some spacing between sections */
+    text-align: justify;
+}
+
+/* Style the map */
+.map img {
+    max-width: 100%; /* Make sure the map image does not exceed its container's width */
+    height: auto; /* Maintain the aspect ratio of the map image */
+}
+
+p{
+    text-align: justify;
+}
+
+ul{
+    text-align: justify;
+}
+
+ol{
+    text-align: justify;
+}
+
+/* CSS untuk tampilan footer */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.fotbar img {
+        width: 300px;
+        height: 350px;
+        margin-right: -40px;
+}
+
+.body-profile {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
